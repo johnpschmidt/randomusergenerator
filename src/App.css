@@ -1,0 +1,59 @@
+.container{
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-color: lightblue;
+    padding: 10px;
+    font-family: 'Slabo 27px', serif;
+}
+.landingPage{
+      display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.newUser{
+    height: 10vh;
+    background-color: #FF8C77;
+    border-radius: 250px;
+    border: none;
+-webkit-box-shadow: 9px 18px 53px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 18px 53px 1px rgba(0,0,0,0.75);
+box-shadow: 9px 18px 53px 1px rgba(0,0,0,0.75);
+
+}
+.card{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5190A5;
+    margin-bottom: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.userPhoto{
+    border-radius: 250px;
+    margin: 0 auto;
+}
+
+.bioInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.bioInfo div{
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
